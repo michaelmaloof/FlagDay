@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		225676741CB218A2001C9CE2 /* Flag.m in Sources */ = {isa = PBXBuildFile; fileRef = 225676731CB218A2001C9CE2 /* Flag.m */; };
 		22CC1FA61CB1EE3900A38C57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CC1FA51CB1EE3900A38C57 /* main.m */; };
 		22CC1FA91CB1EE3900A38C57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CC1FA81CB1EE3900A38C57 /* AppDelegate.m */; };
 		22CC1FAC1CB1EE3900A38C57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CC1FAB1CB1EE3900A38C57 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		225676721CB218A2001C9CE2 /* Flag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flag.h; sourceTree = "<group>"; };
+		225676731CB218A2001C9CE2 /* Flag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flag.m; sourceTree = "<group>"; };
 		22CC1FA11CB1EE3900A38C57 /* FlagDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlagDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22CC1FA51CB1EE3900A38C57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22CC1FA71CB1EE3900A38C57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				22CC1FA81CB1EE3900A38C57 /* AppDelegate.m */,
 				22CC1FAA1CB1EE3900A38C57 /* ViewController.h */,
 				22CC1FAB1CB1EE3900A38C57 /* ViewController.m */,
+				225676721CB218A2001C9CE2 /* Flag.h */,
+				225676731CB218A2001C9CE2 /* Flag.m */,
 				22CC1FAD1CB1EE3900A38C57 /* Main.storyboard */,
 				22CC1FB01CB1EE3900A38C57 /* Assets.xcassets */,
 				22CC1FB21CB1EE3900A38C57 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				22CC1FAC1CB1EE3900A38C57 /* ViewController.m in Sources */,
 				22CC1FA91CB1EE3900A38C57 /* AppDelegate.m in Sources */,
 				22CC1FA61CB1EE3900A38C57 /* main.m in Sources */,
+				225676741CB218A2001C9CE2 /* Flag.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +504,7 @@
 				22CC1FD01CB1EE3900A38C57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22CC1FD11CB1EE3900A38C57 /* Build configuration list for PBXNativeTarget "FlagDayTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				22CC1FD31CB1EE3900A38C57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22CC1FD41CB1EE3900A38C57 /* Build configuration list for PBXNativeTarget "FlagDayUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				22CC1FD61CB1EE3900A38C57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
